@@ -1,12 +1,16 @@
 # Online Shoppers Intention Prediction
-
-Welcome to this repository where we perform **exploratory analysis**, **machine learning modeling**, **threshold optimization**, and **feature importance analysis** on the **Online Shoppers Intention dataset**. The goal is to **predict whether a user session ends in revenue (purchase) or not**.
+![Online_Shopping](onlineshop.png)
+Welcome to this repository, where we perform exploratory analysis, machine learning modeling, threshold optimization, and feature importance analysis on the Online Shoppers Intention dataset. The goal is to predict whether a user session ends in revenue (purchase) or not.
 
 ---
 
 ## 🧠 Problem Statement
 
 The dataset contains anonymized session-level data from an e-commerce website. Each row represents a session, and the objective is to **predict the `Revenue` column (True or False)** based on a variety of numerical and categorical features such as page durations, traffic types, bounce rates, exit rates, and visitor types.
+
+### ❗ Why this matters
+
+Only **15.4% of all sessions** actually ended in a purchase. That means out of 12,330 online shopping visits, only **1,904 resulted in actual revenue**. The challenge lies in identifying and learning from this highly imbalanced subset. A model that naively predicts "no purchase" would already be 84.5% accurate — so we need a much more intelligent approach to find the real buyers.
 
 ---
 
@@ -134,6 +138,6 @@ The final model, a tuned **Gradient Boosting Classifier**, provides strong **pre
 
 ---
 
-Feel free to fork, star, or suggest improvements 🥘
+Feel free to fork, star, or suggest improvements 🤘
 
 > Made with ❤️ in Colab by Tamaghna Nag

@@ -1,5 +1,5 @@
 # Online Shoppers Intention Prediction
-![Online_Shopping](onlineshop.png)
+![Online_Shopping](onlineshop.webp)
 Welcome to this repository, where we perform exploratory analysis, machine learning modeling, threshold optimization, and feature importance analysis on the Online Shoppers Intention dataset. The goal is to predict whether a user session ends in revenue (purchase) or not.
 
 ---
